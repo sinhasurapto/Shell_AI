@@ -42,7 +42,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True)
 
     # Specify the inputs
-    st.write("Please enter values for all the parameters (if not default)!!!")
+    st.write("Please enter values for all the parameters!!!")
     temperature_2_m_above_gnd = st.text_input("Temperature 2 metres above ground") 
     relative_humidity_2_m_above_gnd = st.text_input("Relative humidity 2 metres above ground") 
     mean_sea_level_pressure_MSL = st.text_input("Mean sea level pressure") 
